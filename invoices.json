@@ -1,10 +1,17 @@
 {
 	"companyLogo": "http://lea.verou.me/logo.svg",
-	"companyName": "Lea Verou",
+	"companyName": "Lea Verou Two",
 	"companyAddress": "42 JavaScript Way\n\t\t\tBoston, MA 02114\n\t\t\tUSA",
 	"companyURL": "http://lea.verou.me",
 	"companyEmail": "lea@verou.me",
 	"invoice": [
+		{
+			"recipient": {},
+			"currency": "$",
+			"services": [
+				{}
+			]
+		},
 		{
 			"id": "2",
 			"date": "2016-10-06",
@@ -37,6 +44,10 @@
 			},
 			"currency": "$",
 			"services": [
+				{
+					"description": "This & That",
+					"amount": "40"
+				},
 				{
 					"description": "House cleaning",
 					"amount": "70"
